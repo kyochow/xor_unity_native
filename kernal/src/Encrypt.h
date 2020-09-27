@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include<string.h>
-#include <vector>
 #include "Define.h"
 
 #ifdef __cplusplus
