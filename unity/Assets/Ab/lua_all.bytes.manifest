@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 883260989
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 57809ea8b0fda59c3dd214ecbc462f13
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Encode/protobuf.lua.bytes
+Dependencies: []
