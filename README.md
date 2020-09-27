@@ -16,6 +16,6 @@
 3. 加密解密过程 0内存拷贝，0 GC
 4. 附带各个平台的构建shell/bat
 5. 具体的源码，都是有附带的，可以直接应用到项目中
-6. 附带在Build/Load AssetBundle的范例
+6. 附带Build/Load AssetBundle的范例
 
 unity版本并不重要
