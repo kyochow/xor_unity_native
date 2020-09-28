@@ -9,7 +9,7 @@ public class Test : MonoBehaviour
     public Text _text;
     public void OnClick()
     {
-        LoadBundle();
+        LoadBundle(); 
     }
     
     
