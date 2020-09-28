@@ -1,13 +1,14 @@
 # xor_unity_native
 
 #### 介绍
-一个超简单的native plugin，c实现，用于文件加密(例如lua和配置文件等)
+一个超简单的native plugin demo，c实现，用于文件加密(例如lua和配置文件等)
 
 使用cmake
 
 支持iOS，Android，Mac，Windows平台编译native库
 
 使用最基础的异或加密，可以防一防小白
+加密不重要，重点是各个平台编译和基本写法
 
 使用说明及特性如下
 

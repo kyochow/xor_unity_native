@@ -6,7 +6,7 @@
 extern "C"
 {
 #endif
-    void WEST_API EncodeNoGC(char* params, int paramsLength)
+    void NATIVE_API EncodeNoGC(char* params, int paramsLength)
     {
         int length = strlen(KEY);
         for (int i = 0; i < paramsLength; ++i) {
@@ -14,7 +14,7 @@ extern "C"
         }
     }
 
-    void WEST_API DecodeNoGC(char* params, int paramsLength)
+    void NATIVE_API DecodeNoGC(char* params, int paramsLength)
     {
         EncodeNoGC(params,paramsLength);
     }
