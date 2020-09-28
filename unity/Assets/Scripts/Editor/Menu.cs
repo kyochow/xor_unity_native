@@ -40,7 +40,8 @@ public class Menu
         b.assetBundleName = "lua_all.bytes";
         List<AssetBundleBuild> ab = new List<AssetBundleBuild>();
         ab.Add(b);
-        BuildPipeline.BuildAssetBundles(Application.streamingAssetsPath,ab.ToArray(),BuildAssetBundleOptions.ChunkBasedCompression,BuildTarget.iOS);
+        BuildPipeline.BuildAssetBundles(Application.streamingAssetsPath,ab.ToArray(),BuildAssetBundleOptions.ChunkBasedCompression,
+            EditorUserBuildSettings.activeBuildTarget);
         AssetDatabase.Refresh();
     }
     
