@@ -40,14 +40,14 @@ public class Menu
         b.assetBundleName = "lua_all.bytes";
         List<AssetBundleBuild> ab = new List<AssetBundleBuild>();
         ab.Add(b);
-        BuildPipeline.BuildAssetBundles(Application.dataPath + "/Ab",ab.ToArray(),BuildAssetBundleOptions.ChunkBasedCompression,BuildTarget.Android);
+        BuildPipeline.BuildAssetBundles(Application.streamingAssetsPath,ab.ToArray(),BuildAssetBundleOptions.ChunkBasedCompression,BuildTarget.Android);
         AssetDatabase.Refresh();
     }
     
     [MenuItem("Encrypt/Load Bundle", false, 1303)]
     private static void LoadBundle()
     {
-        AssetBundle ab = AssetBundle.LoadFromFile(Application.dataPath + "/Ab/lua_all.bytes");
+        AssetBundle ab = AssetBundle.LoadFromFile(Application.streamingAssetsPath + "/lua_all.bytes");
         var lua = ab.LoadAsset<TextAsset>("Assets/Encode/protobuf.lua.bytes").bytes;
         var bts = EncryptHelper.DecryptBytes(lua);
         File.WriteAllBytes("Assets/AbDecode/protobuf.lua.txt",bts);
