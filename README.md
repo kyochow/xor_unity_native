@@ -20,3 +20,4 @@
 6. 附带Build/Load AssetBundle的范例
 
 unity版本并不重要
+介绍博客在这里： https://kyochow.github.io/articles/2020/10/12/1602495480321.html
