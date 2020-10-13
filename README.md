@@ -19,5 +19,4 @@
 5. 具体的源码，都是有附带的，可以直接应用到项目中
 6. 附带Build/Load AssetBundle的范例
 
-unity版本并不重要
 介绍博客在这里： https://kyochow.github.io/articles/2020/10/12/1602495480321.html
